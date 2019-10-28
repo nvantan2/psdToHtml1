@@ -1,0 +1,192 @@
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #26292f;
+	height: 60px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	&Img{
+		padding: 10px 10px;
+		width: 220px;
+	}
+	&Text{
+		color: #fff;
+		padding: 20px 20px;
+		text-transform: uppercase;
+	}
+}
+.navi{
+	display: flex;
+	align-items: center;
+	ul{
+		display: flex;
+		a{
+			display: inline-block;
+			color: #fff;
+			padding: 20px 30px;
+		}
+	}
+
+	.entryBtn{
+		margin: 0 10px 0 20px;
+		padding: 10px 25px;
+		background: #ffca00;
+		border: 1px solid #333;
+		border-radius: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		display: inline-block;
+	}
+}
+
+
+
+
+
+// .slider{
+// 	height: 620px;
+// 	background: linear-gradient(to right bottom, #ffb400, #ffcc00);
+// 	// display: flex;
+// 	overflow: hidden;
+// 	position: relative;
+// 	&__block{
+// 		display: flex;
+// 		justify-content: space-between;
+// 		align-items: center;
+
+// 		&--banner{
+// 			margin-top: 85px;
+// 			z-index: 2;
+// 		}
+// 		&--text{
+			
+// 			p{
+// 				z-index: 2;
+// 				margin-left: 84px;
+// 				font-size: 20pt;
+// 				&:nth-child(1){
+					
+// 					font-weight: bold;
+// 					font-size: 60pt;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	&Bg{
+// 		&__content{
+// 			position: absolute;
+// 			z-index: 0;
+// 			top: 100%;
+// 			opacity: 0.5;
+// 			//right: 0;
+// 			//left: 100px;
+// 			//animation: example 3s linear infinite;
+// 		}
+// 	}
+// }
+// .test{
+// 	animation: example 3s linear infinite;
+// }
+// // .test1{
+// // 	animation: example1 3s linear infinite;
+// // 	animation-delay: 3s;
+// // }
+
+// .present{
+// 	&Title{
+// 		margin-top: 67px;
+// 		display: flex;
+// 		flex-direction: column;
+// 		align-items: center;
+// 		p{
+			
+// 			&:first-child{
+// 				color: #fcd67d;
+// 				font-size: 250%;
+// 				text-transform: uppercase;
+// 				position: relative;
+// 				display: flex;
+// 				flex-direction: column;
+// 				align-items: center;
+// 				&:before{
+// 					content: '入社特典';
+// 					color: #333;
+// 					position: absolute;
+// 					top: 50%;
+// 					//left: 38vw;
+// 					text-align: center;
+// 					font-size: 90%;
+// 					margin-bottom: 40px;
+// 					//right: 50%;
+// 					//right: 0;
+// 				}
+// 			}
+// 		}
+// 	}
+// 	&Content{
+// 		display: flex;
+// 		margin-top: 50px;
+
+// 		&__title{
+// 			p{
+// 				&:first-child{
+// 					color: #ffb400;
+// 					font-size: 300%;
+// 					//font-weight: bold;
+// 				}
+// 				&:nth-child(2){
+// 					font-size: 200%;
+// 					margin-bottom: 30px;
+// 				}
+// 			}
+// 			ul{
+// 				list-style-type: square;
+// 				margin: 40px 0 40px 50px;
+// 				li{
+// 					a{
+// 						color: inherit;
+// 					}
+// 				}
+// 			}
+// 		}
+
+// 		&__img{
+// 			// &1{
+// 			// 	box-shadow: -30px -30px #ffc100;
+// 			// 	position: relative;
+// 			// 	z-index: 2;
+// 			// }
+// 			// &2{
+// 			// 	box-shadow: -30px -30px #ffc100;
+// 			// 	position: absolute;
+// 			// 	right: 10%;
+// 			// 	top: 1000px;
+// 			// 	z-index: 3;
+// 			// }
+// 		}
+// 	}
+// }
+
+// @keyframes example {
+// 	0%{left: 900px; top: 0;}
+// 	25%{left: 650px; top: 0;}
+// 	50%{left: 450px; top: 0; animation-delay: 1s;}
+// 	75%{left: 250px; top: 0;} 
+// 	100%{left: 0; top: 0;}
+// }
+
+// // @keyframes example1 {
+// // 	0%{left: 900px; top: 0;}
+// // 	25%{left: 650px; top: 0;}
+// // 	50%{left: 450px; top: 0;} 
+// // 	75%{left: 250px; top: 0;} 
+// // 	100%{left: 0; top: 0;}
+// // }
